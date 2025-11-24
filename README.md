@@ -1,11 +1,11 @@
-# 🌡️ Temperature & Humidity IoT Logger — Arduino + Python
+# Temperature & Humidity IoT Logger — Arduino + Python
 
 This project is a real-time **Temperature & Humidity Logger** using an Arduino and a DHT11 sensor.  
 It reads sensor data via the Arduino, sends it to a computer using serial communication, and displays a **live dashboard** using Python and Matplotlib. The data is also logged into a CSV file for further analysis.
 
 ---
 
-## 🛠️ Features
+##  Features
 
 - Real-time sensor data collection (temperature & humidity)
 - Serial communication between Arduino and Python
@@ -15,7 +15,7 @@ It reads sensor data via the Arduino, sends it to a computer using serial commun
 
 ---
 
-## 🧰 Hardware Required
+##  Hardware Required
 
 - Arduino Uno / Nano / Compatible Board  
 - DHT11 Temperature & Humidity Sensor  
@@ -25,7 +25,7 @@ It reads sensor data via the Arduino, sends it to a computer using serial commun
 
 ---
 
-## 🔌 Wiring Instructions (Written Format)
+##  Wiring Instructions (Written Format)
 
 Connect the DHT11 sensor to the Arduino as follows:
 
@@ -33,11 +33,11 @@ Connect the DHT11 sensor to the Arduino as follows:
 - **DHT11 GND** → Connect to **Arduino GND**  
 - **DHT11 DATA** → Connect to **Arduino Digital Pin 2**
 
-> ⚠️ **If using a raw DHT11 sensor (not on a module)**, add a **10kΩ resistor** between **DATA** and **VCC** to ensure stable readings.
+>  **If using a raw DHT11 sensor (not on a module)**, add a **10kΩ resistor** between **DATA** and **VCC** to ensure stable readings.
 
 ---
 
-## 🧪 Software Setup
+##  Software Setup
 
 ### 1. **Arduino**
 - Open `DHT11_Logger.ino` in the Arduino IDE
